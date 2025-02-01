@@ -93,7 +93,6 @@
             button1.TabIndex = 4;
             button1.Text = "4";
             button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
             // 
             // button3
             // 
@@ -226,6 +225,8 @@
             Controls.Add(btnTwo);
             Controls.Add(btnOne);
             Controls.Add(txtDisplay);
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "frmCalculator";
             Text = "Calculator";
             ResumeLayout(false);
